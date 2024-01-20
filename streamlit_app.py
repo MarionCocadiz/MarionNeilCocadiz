@@ -1,7 +1,7 @@
 import streamlit as st
 
 
-st.set_page_config(page_title="My Webpage", page_icon=:"tada:", layout="wide")
+st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide")
 
 st.subheader("Hi, I am Marion :wave:")
 st.title("A data analyst From Philippines")
