@@ -35,4 +35,10 @@ with st.container():
 
         )
 
+st.write("More information about Philippines. ")
 
+
+st.write("[Learn more >](st.write("For more info click the link. ")
+
+
+st.write("[Learn more >](https://www.topuniversities.com/blog/10-surprising-facts-about-asia)"))")
