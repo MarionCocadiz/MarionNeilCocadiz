@@ -68,3 +68,33 @@ st.write("For more info click the link. ")
 
 
 st.write("[Learn more >](https://www.holidify.com/pages/facts-about-singapore-2099.html)")
+
+
+with st.container():
+    st.write("---")
+    left_column, right_column = st.columns(2)
+    with left_column:
+        st.header("Thailand fact")
+        st.write("##")
+        st.write(
+            """
+            - Thailand is where you’ll find both the smallest and the largest creatures. The smallest mammal in the world, 
+            the bumblebee bat, calls Thailand home. You can also find the largest fish, the whale shark, in Thai waters.
+
+            - Thailand loves its King, and shows great respect for the monarchy. The well-known Hollywood movie “The King and I” 
+            was never shown in Thai theaters because it was considered to be derogatory to the King. How serious are they about 
+            their King? Thailand has the lese majeste rule, meaning that if you commit disrespectful acts toward the King, you could be
+            imprisoned for treason.
+
+            - Showing respect for another person’s head is imperative in Thailand. The head is considered to be the most important part 
+            of the body, and so Thai culture forbids touching anyone on the head (even a child). Should you meet someone who is older or 
+            more important than you, it is best to lower your head in deference to show proper respect.
+            """
+
+        )
+
+st.write("For more info click the link. ")
+
+
+st.write("[Learn more >](https://samujana.com/25-interesting-facts-about-thailand/)")
+
