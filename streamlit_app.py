@@ -13,6 +13,9 @@ st.write("For more info click the link. ")
 st.write("[Learn more >](https://www.topuniversities.com/blog/10-surprising-facts-about-asia)")
 
 
+lottie_coding = "https://app.lottiefiles.com/search?query=Philippine+flag"
+
+
 with st.container():
     st.write("---")
     left_column, right_column = st.columns(2)
@@ -158,7 +161,12 @@ with st.container():
 st.write("For more info click the link. ")
 
 
-st.write("[Learn more >](https://kids.nationalgeographic.com/geography/countries/article/vietnam))
+st.write("[Learn more >](https://kids.nationalgeographic.com/geography/countries/article/vietnam)")
+
+
+
+
+
 
 
 
