@@ -40,4 +40,4 @@ with st.container():
 st.write("For more info click the link. ")
 
 
-st.write("[Learn more >](https://www.topuniversities.com/blog/10-surprising-facts-about-asia)"))")
+st.write("[Learn more >](https://www.topuniversities.com/blog/10-surprising-facts-about-asia)")
