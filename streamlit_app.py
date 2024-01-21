@@ -41,3 +41,30 @@ st.write("For more info click the link. ")
 
 
 st.write("[Learn more >](https://www.topuniversities.com/blog/10-surprising-facts-about-asia)")
+
+
+
+
+with st.container():
+    st.write("---")
+    left_column, right_column = st.columns(2)
+    with left_column:
+        st.header("Singapore fact")
+        st.write("##")
+        st.write(
+            """
+            - A total of 27 Singlish words have made it to the Oxford dictionary.
+
+            - Contrary to popular belief, Singapore is not a single island, but 63 in all; comprising of other offshore islands also, 
+            such as Sentosa Island, Pulau Ubin, Sisters’ Island and St John’s island among others.
+
+            - The mythical creature Merlion, the ambassador of Singapore, is a half lion and a half fish. The lion comes from the first 
+            sighting, and the fish represents the traditional fishing occupation of the city.
+            """
+
+        )
+
+st.write("For more info click the link. ")
+
+
+st.write("[Learn more >](https://www.holidify.com/pages/facts-about-singapore-2099.html)")
