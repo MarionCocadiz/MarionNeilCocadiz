@@ -1,7 +1,20 @@
+import request
+
 import streamlit as st
+from streamlit_lottie import st_lottie
+
 
 
 st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide")
+
+def load_lottieurl(url):
+    r = request.get(url)
+    if r.status_code != 200:
+        return None
+    return r.json()    
+
+
+lottie_coding = load_lottieurl("https://app.lottiefiles.com/search?query=Philippine+flag")
 
 st.subheader("Hi, I am Marion :wave:")
 st.title("I am a CCS student from Grade 10 Fortitude")
@@ -12,8 +25,11 @@ st.write("For more info click the link. ")
 
 st.write("[Learn more >](https://www.topuniversities.com/blog/10-surprising-facts-about-asia)")
 
+with right_column:
+    st_lottie(lottie_coding, height=300, key="coding")
 
-lottie_coding = "https://app.lottiefiles.com/search?query=Philippine+flag"
+
+
 
 
 with st.container():
