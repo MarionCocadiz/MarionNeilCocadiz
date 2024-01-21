@@ -5,7 +5,7 @@ st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide")
 
 st.subheader("Hi, I am Marion :wave:")
 st.title("I am a CCS student from Grade 10 Fortitude")
-st.write("I'm going to tell you fact about Countries in Asia. ")
+st.write("I'm going to tell you fact about Countries in South-East Asia. ")
 
 st.write("For more info click the link. ")
 
@@ -97,4 +97,77 @@ st.write("For more info click the link. ")
 
 
 st.write("[Learn more >](https://samujana.com/25-interesting-facts-about-thailand/)")
+
+
+
+
+with st.container():
+    st.write("---")
+    left_column, right_column = st.columns(2)
+    with left_column:
+        st.header("Malaysia fact")
+        st.write("##")
+        st.write(
+            """
+            - The country of Malaysia is two separate areas of land known as Peninsular Malaysia and East Malaysia. 
+            The two regions are separated by the South China Sea by about 400 miles. Combined, they’d be roughly the size of the state
+            of New Mexico.
+
+            - Peninsular Malaysia is on the tip of the Malay Peninsula, a long, thin landmass that snakes south from the country of
+            Thailand toward the South China Sea. East Malaysia stretches across northern Borneo, an island Malaysia shares with the 
+            country of Indonesia.
+
+            - Malaysia’s capital, Kuala Lumpur, is located on the west side of Peninsular Malaysia, closer to the Indonesian island 
+            of Sumatra than to East Malaysia. East Malaysia is home to Mount Kinabalu, the country's highest point, which has an 
+            elevation of 13,455 feet (4,101 meters).
+            """
+
+        )
+
+st.write("For more info click the link. ")
+
+
+st.write("[Learn more >](https://kids.nationalgeographic.com/geography/countries/article/malaysia)")
+
+
+
+
+with st.container():
+    st.write("---")
+    left_column, right_column = st.columns(2)
+    with left_column:
+        st.header("Vietnam fact")
+        st.write("##")
+        st.write(
+            """
+            - Vietnam is a long, narrow nation shaped like the letter s. It is in Southeast Asia on the eastern edge 
+            of the peninsula known as Indochina. Its neighbors include China to the north and Laos and Cambodia to the west. 
+            The South China Sea lies to the east and south. The mountains of the Annam Cordillera rise over most of the western side of 
+            Vietnam, while a thousand-mile (1,600-kilometer) coastline dominates the east.
+
+            - Vietnam is only 30 miles (48 kilometers) wide. Two of Vietnam's largest rivers, the Mekong in the south and the Red 
+            in the north, end at the South China Sea in huge swampy plains called deltas. These regions are home to most of the 
+            country's people and provide fertile ground to grow rice and many other crops.
+
+            - Most Vietnamese people live in the countryside, mainly in the river delta regions of the north and south. 
+            Recently though, people have begun to move to the main cities of Ho Chi Minh (formerly Saigon) and Hanoi.
+            """
+
+        )
+
+st.write("For more info click the link. ")
+
+
+st.write("[Learn more >](https://kids.nationalgeographic.com/geography/countries/article/vietnam)")
+
+
+
+
+
+
+
+
+
+
+
 
