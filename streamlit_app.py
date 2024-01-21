@@ -21,11 +21,11 @@ with st.container():
         st.write("##")
         st.write(
             """
-            - Philippines, island country of Southeast Asia in the western Pacific Ocean.
+            - Philippines, an island country of Southeast Asia in the western Pacific Ocean.
             It is an archipelago consisting of more than 7,000 islands and islets lying about 500 miles
             (800 km) off the coast of Vietnam.
 
-            - Manila is the capital, but nearby Quezon City is the country’s most-populous city.
+            - Manila is the capital, but nearby Quezon City is the country’s most populous city.
             Both are part of the National Capital Region (Metro Manila), located on Luzon,
             the largest island. The second largest island of the Philippines is Mindanao, in the southeast.
 
@@ -37,7 +37,7 @@ with st.container():
 
 
 
-st.write("[Learn more >]("For more info click the link. "))
+st.write("For more info click the link. ")
 
 
 st.write("[Learn more >](https://www.topuniversities.com/blog/10-surprising-facts-about-asia)"))")
