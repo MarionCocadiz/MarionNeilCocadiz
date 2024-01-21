@@ -5,12 +5,12 @@ st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide")
 
 st.subheader("Hi, I am Marion :wave:")
 st.title("I am a CCS student from Grade 10 Fortitude")
-st.write("I'm going to tell you fact about Philippines. ")
+st.write("I'm going to tell you fact about Countries in Asia. ")
 
 st.write("For more info click the link. ")
 
 
-st.write("[Learn more >](https://www.britannica.com/place/Philippines)")
+st.write("[Learn more >](https://www.topuniversities.com/blog/10-surprising-facts-about-asia)")
 
 
 with st.container():
